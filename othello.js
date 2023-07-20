@@ -1,6 +1,7 @@
 const board = document.getElementById("board")
 let count = 0
 
+const game=[]
 function maleblack(masu){
     masu.textContent = '●'
     masu.classList.add('black')

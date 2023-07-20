@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>オセロ</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #board{
+            width: 800px;
+            display: grid;
+            grid-template-columns: repeat(8,1fr);
+            background-color: #008000;
+        }
+        #board div{
+            width: 100px;
+            height: 100px;
+            border:  1px solid black;
+        }
+
+        .black{
+            color: black;
+            font-size: 64px;
+            text-align: center;
+            line-height: 1.5;
+        }
+        .white{
+            color: white;
+            font-size: 64px;
+            text-align: center;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div id="board"></div>
+    <script src="othello.js"></script>
+    
+</body>
+</html>
